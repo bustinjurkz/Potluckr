@@ -1,0 +1,37 @@
+event{
+    name{"Bob's Barbecue"}
+    date{March 20 2018}
+    description{"Will be fun"}
+    location{"McMaster University"}
+    from{12:00 to 14:30}
+}
+recipe(5){
+    ingredients{"cucumber", "onion", "tomato"}
+    cuisine{Italian}
+    type{main course}
+    allergy{Dairy, Eggs}
+    diet{vegan}
+}
+
+plan {
+    attendee{
+        name{"Maria"}
+        allergy{Wheat, Dairy}
+        diet{vegetarian}
+
+
+        available {
+            {march 16 2018 from 18:00 to 20:00}
+            {march 15 2018 from 19:00 to 21:00}
+        }
+    }
+    attendee{
+        name{"Carolina"}
+        diet{vegan}
+
+        unavailable {
+            {march 30 2018 from 18:00 to 19:00}
+            {march 15 2018 from 18:00 to 20:00}
+        }
+    }
+}

@@ -1,0 +1,7 @@
+event{
+    name{"Bob's Barbecue"}
+    date{March 20 2018}
+    description{"Will be fun"}
+    location{"McMaster University"}
+    from{12:00 to 14:30}
+}
